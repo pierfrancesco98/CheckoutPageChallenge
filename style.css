@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header 
+{
+    width: 100%;
+}
+header h1 
+{
+    margin-top: 64px;
+    margin-left: 200px;
+    font-family: 'Montserrat', sans-serif;
+    color: #4E5150;
+    font-size: 36px;
+}
+section
+{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+.cart 
+{
+    margin-top: 50px;
+    height: 535px;
+    width: 383px;
+    border-radius: 12px;
+    background: #F2F2F2;
+}
+.content 
+{
+    margin: 30px auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+}
+img 
+{
+    width: 175px;
+    height: 140px;
+    border-radius: 14px;
+    margin-right: 5px;
+}
+h4 
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #4E5150;
+}
+.content p 
+{
+    margin-top: 6px;
+}
+strong 
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;  
+    font-weight: 600;
+    color: #F2994A;
+}
+.content p span
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: #4E5150;
+    margin-left: 10px;
+}
+.line 
+{
+    display: flex;
+    position: relative;
+    background: #4E5150;
+    padding: 1px;
+    transform: rotate(180deg);
+    width: 40px;
+    left: 55px;
+    bottom: 10px;
+}
+.quantity 
+{
+    display: flex;
+    position: relative;
+    top: 30px;
+    margin: 0 auto;
+    height: 52px;
+    width: 134px;
+    border-radius: 12px;
+    border: 1px solid #828282;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.quantity button 
+{
+    height: 21px;
+    width: 21px;
+    border-radius: 4px;
+    font-size: 12px;
+    outline: none;
+    border: none;
+    background: #E0E0E0;
+    margin: 30px;
+    cursor: pointer;
+}
+.quantity p 
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    height: 21px;
+    color: #333;
+}
+.quantity span
+{
+    font-size: 12px;
+    color: #828282;
+    padding: auto;
+}
+.contents
+{
+    width: 90%;
+    margin: 70px auto;
+    display: flex;
+    flex-direction: column;
+}
+.total
+{
+    width: 100%;
+    display: flex;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.total p 
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+.total .prices 
+{
+    font-size: 14px;
+}
+hr 
+{
+    width: 100%;
+}
+form 
+{
+    margin-top: 15px;
+}
+h3 
+{
+    font-size: 18px;
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+label
+{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #4F4F4F;
+    margin-bottom: 20px;
+}
+input
+{
+    position: relative;
+    bottom: 10px;
+    height: 56px;
+    width: 465px;
+    border-radius: 12px;
+    outline: none;
+    color: #828282;
+    padding-left: 52px;
+    border: 1px solid;
+}
+input::placeholder
+{
+    color: #828282;
+}
+#Name::placeholder
+{
+    color: #333;
+}
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 800,
+    'GRAD' 200,
+    'opsz' 48
+  }
+  form span
+  {
+      color: #828282;
+      width: 20px;
+      height: 16px;
+      position: relative;
+      top: 22px;
+      left: 14px;
+      z-index: 10;
+  } 
+  .flex 
+  {
+    display: flex;
+    width: 465px;
+    justify-content: space-between;
+  }
+  select, #Postal
+  {
+    height: 56px;
+    width: 200px;
+    border-radius: 12px;
+    outline: none;
+    color: #828282;
+  }
+#Country 
+{
+    position: relative;
+    bottom: 10px;
+}
+option 
+{
+    text-align: center;
+}
+.box 
+{
+    width: 400px;
+    display: flex;
+}
+.box label
+{
+    margin-left: 35px;
+}
+.box input
+{
+    position: relative;
+    right: 33px;
+    height: 21px;
+    width: 21px;
+    bottom: 18px;
+    border-radius: 4px;
+}
+.btn 
+{
+    height: 54px;
+    width: 166px;
+    border-radius: 12px;
+    text-align: center;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background: #F2994A;
+    margin-left: 300px;
+}
+.footer
+{
+    margin-top: 93px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 100%;
+    color: #BDBDBD;
+    text-align: center;
+} 
+.footer a 
+{
+font-family: 'Montserrat', sans-serif;
+font-size: 14px;
+font-weight: 700;
+line-height: 17px;
+text-align: center;
+text-decoration: none;
+color: #BDBDBD;
+}
+@media (max-width: 900px)
+{
+    main 
+    {
+        width:100%;
+    }
+    header 
+    {
+        width: 100%;
+    }
+    header h1 
+    {
+        font-size: 24px;
+        margin-left: 18px;
+        margin-top: 32px;
+    }
+    section 
+    {
+        flex-direction: column;
+        width: 100%;
+    }
+    .cart
+    {
+        
+        left: 0;
+        margin: 20px auto;
+        height: 489px;
+        width: 350px;
+        border-radius: 12px;
+    }
+    form 
+    {
+        width: 350px;
+        margin: 0 auto;
+    }
+    h3 
+    {
+        font-size: 14px;
+    }
+    label
+    {
+        font-size: 10px;
+    }
+    input 
+    {
+        height: 40px;
+        width: 349px;
+        border-radius: 12px;
+    }
+    form span 
+    {
+        height: 12px;
+        width: 15px;
+        top: 10px;
+    }
+    .flex
+    {
+        width: 349px;
+    }
+    select, #Postal
+    {
+        height: 40px;
+        width: 163px;
+        border-radius: 12px;
+    }
+    .flex span 
+    {
+        font-size: 20px;
+    }
+    select
+    {
+        font-size: 12px;
+        padding-left: 20px;
+        text-align: right;
+        display: flex;
+    }
+    #Postal
+    {
+       padding-left: 40px;
+    }
+    .box input 
+    {
+       height: 15px;
+       width: 16px;
+       border-radius: 4px;
+       bottom: 14px;
+       right: 24px;
+    }
+    .box label
+    {
+        margin-left: 30px;
+    }
+    .btn 
+   {
+        height: 54px;
+        width: 166px;
+        margin-left: 195px;
+   }
+   img 
+   {
+     width: 160px;
+   }
+   h4 
+   {
+    font-size: 12px;
+   }
+   strong 
+   {
+    font-size: 14px;
+   }
+   .content p span 
+   {
+       font-size: 10px;
+   }
+   .line 
+   {
+    width: 37px;
+    bottom: 8px;
+    left: 47px;
+   }
+   .quantity
+   {
+    height: 50px;
+    width: 123px;
+    border-radius: 12px;
+   }
+   .quantity button 
+   {
+     width: 20px;
+     height: 20px;
+   }
+   .contents
+   {
+    margin: 40px auto;
+   }
+   .total p 
+   {
+     font-size: 14px;
+   }
+   .total .prices 
+  {
+    font-size: 14px;
+  }
+}
